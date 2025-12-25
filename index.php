@@ -56,7 +56,7 @@
                 <div class="main-divs">
                     <div class="input-group" id="show_hide_password">
                         <input type="password" name="password" class="form-control myInput" aria-label="Password"
-                            id="passwordInput" placeholder="Password*"
+                            id="passwordInput" placeholder="Password*" id="passwordInput" placeholder="Password*"
                             value="<?php if(isset($_SESSION['password'])){echo $_SESSION['password'];}?>" required>
                         <span class="input-group-text toggle-password"
                             style="background-color: transparent; border-radius: 1px; z-index: 10;"><i
