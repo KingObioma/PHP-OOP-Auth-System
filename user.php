@@ -22,25 +22,27 @@
 <body>
     <div class="form">
         <div id="signup" class="form-section active">
-            <div class="header">
-                <h2><a style="color: white; text-decoration: none;" href="index.php">Hi Chisom</a></h2>
-            </div>
-            <p style="color: white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est debitis, optio, ipsam
-                placeat obcaecati,
-                fugit sed nulla consequatur recusandae? Officiis
+            <div id="signup" class="form-section active">
+                <div class="header">
+                    <h2><a style="color: white; text-decoration: none;" href="index.php">Hi Chisom</a></h2>
+                </div>
+                <p style="color: white">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est debitis, optio,
+                    ipsam
+                    placeat obcaecati,
+                    fugit sed nulla consequatur recusandae? Officiis
 
-                excepturi delectus voluptatibus ut odit dolorem ab dignissimos impedit accusantium incidunt ducimus
-                eveniet. Voluptates, quaerat! Impedit nesciunt, ex non inventore mollitia at tenetur cupiditate quod
-                soluta illo maxime dolorem ipsam aspernatur ipsa quasi nam corporis rerum officia provident aut
-                accusamus vitae possimus, laboriosam quibusdam. Maiores cum exercitationem et dicta nemo excepturi
-                sapiente debitis nam earum.</p>
+                    excepturi delectus voluptatibus ut odit dolorem ab dignissimos impedit accusantium incidunt ducimus
+                    eveniet. Voluptates, quaerat! Impedit nesciunt, ex non inventore mollitia at tenetur cupiditate quod
+                    soluta illo maxime dolorem ipsam aspernatur ipsa quasi nam corporis rerum officia provident aut
+                    accusamus vitae possimus, laboriosam quibusdam. Maiores cum exercitationem et dicta nemo excepturi
+                    sapiente debitis nam earum.</p>
+            </div>
         </div>
-    </div>
-    <script src="Frontend/index.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
-    </script>
+        <script src="Frontend/index.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+        </script>
 </body>
 
 </html>
