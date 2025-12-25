@@ -6,6 +6,7 @@ if(isset($_POST['submit'])){
     $lastName = $_POST['lastName'];
     $email = $_POST['email'];
     $password = $_POST['password'];
+    $password = $_POST['password'];
 
      require_once "../Connection/connect.php";
      require_once "../Classes/signupValidation.php";
