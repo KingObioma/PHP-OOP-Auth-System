@@ -6,7 +6,6 @@ if(isset($_POST['submit'])){
     $lastName = $_POST['lastName'];
     $email = $_POST['email'];
     $password = $_POST['password'];
-    $password = $_POST['password'];
 
      require_once "../Connection/connect.php";
      require_once "../Classes/signupValidation.php";
@@ -28,6 +27,7 @@ if(isset($_POST['submit'])){
         $_SESSION['errors'] = $noError;
         $_SESSION['firstName'] = $firstName;
         $_SESSION['lastName'] = $lastName;
+        $_SESSION['email'] = $email;
         $_SESSION['email'] = $email;
         $_SESSION['password'] = $password;
         header('location: ../index.php');
