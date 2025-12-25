@@ -54,6 +54,13 @@
 
                 </div>
                 <div class="main-divs">
+                    <input type="email" name="email" class="form-control myInput" id="myInput"
+                        placeholder="Email Address*"
+                        value="<?php if(isset($_SESSION['email'])){echo $_SESSION['email'];}?>" required>
+                    <?php if(isset($_SESSION) && isset($_SESSION['errors'])){$errors = $_SESSION['errors'];if(isset($errors['email'])){echo '<span style="color:  rgb(0, 128, 92)">' . $errors['email'] .'</span> <br>';}}?>
+
+                </div>
+                <div class="main-divs">
                     <div class="input-group" id="show_hide_password">
                         <input type="password" name="password" class="form-control myInput" aria-label="Password"
                             id="passwordInput" placeholder="Password*"

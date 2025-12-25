@@ -28,7 +28,6 @@ if(isset($_POST['submit'])){
         $_SESSION['firstName'] = $firstName;
         $_SESSION['lastName'] = $lastName;
         $_SESSION['email'] = $email;
-        $_SESSION['email'] = $email;
         $_SESSION['password'] = $password;
         header('location: ../index.php');
     }    
